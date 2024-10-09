@@ -8,12 +8,12 @@
     ```css
     /* h1要素の文字色を青色に指定 */
     h1 {
-    	color: blue;
+      color: blue;
     }
     
     /* p要素の文字色を黄色に指定 */
     p {
-    	color: yellow;
+      color: yellow;
     }
     ```
     
@@ -24,12 +24,12 @@
     ```css
     /* h1要素の文字色を青色に指定 */
     h1 {
-    	color: rgb(255, 0, 0);
+      color: rgb(255, 0, 0);
     }
     
     /* p要素の文字色を黄色に指定 */
     p {
-    	color: rgb(255, 255, 0);
+      color: rgb(255, 255, 0);
     }
     ```
     
@@ -40,12 +40,12 @@
     ```css
     /* h1要素の文字色を青色に指定 */
     h1 {
-    	color: #0000FF;
+      color: #0000FF;
     }
     
     /* p要素の文字色を黄色に指定 */
     p {
-    	color: #FFFF00;
+      color: #FFFF00;
     }
     ```
 
@@ -56,17 +56,17 @@
 /* p要素の背景色を黒色に指定 */
 /* 英語での指定 */
 p {
-	color: black;
+  color: black;
 }
 
 /* RGBでの指定 */
 p {
-	color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 /* 16進数での指定 */
 p {
-	color: #000000;
+  color: #000000;
 }
 ```
 
@@ -80,12 +80,12 @@ p {
     ```css
     /* h1要素の文字サイズを24pxに指定 */
     h1 {
-    	font-size: 24px;
+      font-size: 24px;
     }
     
     /* p要素の文字サイズを16pxに指定 */
     p {
-    	font-size: 16px;
+      font-size: 16px;
     }
     ```
 
@@ -112,15 +112,15 @@ p {
 
     ```css
     html {
-    	font-size: 16px;
+      font-size: 16px;
     }
     
     p {
-    	font-size: 2em;
+      font-size: 2em;
     }
     
     span {
-    	font-size: 0.5em;
+      font-size: 0.5em;
     }
     ```
 
@@ -147,15 +147,15 @@ p {
 
     ```css
     html {
-    	font-size: 16px;
+      font-size: 16px;
     }
     
     p {
-    	font-size: 2rem;
+      font-size: 2rem;
     }
     
     span {
-    	font-size: 0.5rem;
+      font-size: 0.5rem;
     }
     ```
 
@@ -179,16 +179,15 @@ p {
 </body>
 </html>
 ```
-
 ```css
 /* p要素の文字色を青色で表示 */
 p {
-	color: blue;
+  color: blue;
 }
 
 /* p要素内の「緑色」の文字だけ緑色で表示 */
 span {
-	color: green;
+  color: green;
 }
 ```
 
@@ -205,17 +204,17 @@ span {
     <!DOCTYPE html>
     <html lang="ja">
     <head>
-        <meta charset="UTF-8">
-        <!-- ここにstyles.cssを適用するコードを記述 -->
-        <link rel="stylesheet" href="styles.css">
-        
-        <title>Document</title>
+      <meta charset="UTF-8">
+      <!-- ここにstyles.cssを適用するコードを記述 -->
+      <link rel="stylesheet" href="styles.css">
+    
+      <title>Document</title>
     </head>
     <body>
-        <h1>CSSハンズオン</h1>
-        <h3>Part2</h3>
-        <!-- 「色」にのみCSSを適用するために編集 -->
-        <p>ここの色を緑色にしてください。</p>
+      <h1>CSSハンズオン</h1>
+      <h3>Part2</h3>
+      <!-- 「色」にのみCSSを適用するために編集 -->
+      <p>ここの色を緑色にしてください。</p>
     </body>
     </html>
     ```
@@ -228,7 +227,7 @@ span {
     ```css
     /* html要素の文字サイズを宣言 */
     html {
-        font-size: 24px;
+      font-size: 24px;
     }
     ```
     </details>
@@ -240,9 +239,9 @@ span {
     ```css
     /* h1要素の文字色、背景色、文字サイズを宣言 */
     h1 {
-        color: white;
-        background-color: blue;
-        font-size: 1rem;
+      color: white;
+      background-color: blue;
+      font-size: 1rem;
     }
     ```
     </details>
@@ -254,8 +253,8 @@ span {
     ```css
     /* h3要素の背景色、文字サイズを宣言 */
     h3 {
-        background-color: rgb(0, 100, 0);
-        font-size: 0.75rem;
+      background-color: rgb(0, 100, 0);
+      font-size: 0.75rem;
     }
     ```
     </details>
@@ -267,8 +266,8 @@ span {
     ```css
     /* p要素の文字色、文字色、文字サイズを宣言 */
     p {
-        color: #000080;
-        font-size: 0.5rem;
+      color: #000080;
+      font-size: 0.5rem;
     }
     ```
     </details>
@@ -281,24 +280,24 @@ span {
     <!DOCTYPE html>
     <html lang="ja">
     <head>
-        <meta charset="UTF-8">
-        <!-- ここにstyles.cssを適用するコードを記述 -->
-        <link rel="stylesheet" href="styles.css">
-        
-        <title>Document</title>
+      <meta charset="UTF-8">
+      <!-- ここにstyles.cssを適用するコードを記述 -->
+      <link rel="stylesheet" href="styles.css">
+    
+      <title>Document</title>
     </head>
     <body>
-        <h1>CSSハンズオン</h1>
-        <h3>Part2</h3>
-        <!-- 「色」にのみCSSを適用するために編集 -->
-        <p>ここの<span>色</span>を緑色にしてください。</p>
+      <h1>CSSハンズオン</h1>
+      <h3>Part2</h3>
+      <!-- 「色」にのみCSSを適用するために編集 -->
+      <p>ここの<span>色</span>を緑色にしてください。</p>
     </body>
     </html>
     ```
     ```css
     /* 「色」の文字色を宣言 */
     span {
-        color: red;
+      color: red;
     }
     ```
     </details>
