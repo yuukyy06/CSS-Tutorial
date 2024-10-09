@@ -18,12 +18,12 @@ HTMLの要素にid属性やclass属性を指定し、セレクターでそのid�
 ```
 ```css
 p {
-	color: green;
+  color: green;
 }
 
 /* セレクターでid属性を指定（idセレクター）する場合は値の前に#を付ける */
 #red {
-	color: red;
+  color: red;
 }
 ```
 
@@ -36,12 +36,12 @@ p {
 ```
 ```css
 p {
-	color: green;
+  color: green;
 }
 
 /* セレクターでclass属性を指定（classセレクター）する場合は値の前に.を付ける */
 .red {
-	color: red;
+  color: red;
 }
 ```
 
@@ -64,11 +64,11 @@ id属性は1つの値を1つの要素にしか適用できません。class属�
 ```
 ```css
 p {
-	color: green;
+  color: green;
 }
 
 .red {
-	color: red;
+  color: red;
 }
 ```
 
@@ -89,19 +89,19 @@ p {
 ```
 ```css
 p {
-	color: green;
+  color: green;
 }
 
 .red {
-	color: red;
+  color: red;
 }
 
 #blue {
-	background-color: blue;
+  background-color: blue;
 }
 
 #yellow {
-	background-color: yellow;
+  background-color: yellow;
 }
 ```
 
@@ -114,15 +114,15 @@ CSSでは後で書かれた宣言が優先されるというルールがあり�
 
 ```css
 p {
-	color: green;
+  color: green;
 }
 
 .red {
-	color: red;
+  color: red;
 }
 
 #blue {
-	background-color: blue;
+  background-color: blue;
 }
 ```
 
@@ -130,15 +130,15 @@ p {
 
 ```css
 #blue {
-	background-color: blue;
+  background-color: blue;
 }
 
 .red {
-	color: red;
+  color: red;
 }
 
 p {
-	color: green;
+  color: green;
 }
 ```
 
@@ -146,27 +146,27 @@ p {
 
 ```css
 p {
-	color: green;           /* 優先順位 6位 */
+  color: green;           /* 優先順位 6位 */
 }
 
 .red {
-	color: red;             /* 優先順位 4位 */
+  color: red;             /* 優先順位 4位 */
 }
 
 #blue {
-	background-color: blue; /* 優先順位 2位 */
+  background-color: blue; /* 優先順位 2位 */
 }
 
 #blue {
-	background-color: red;  /* 優先順位 1位 */
+  background-color: red;  /* 優先順位 1位 */
 }
 
 .red {
-	color: green;           /* 優先順位 3位 */
+  color: green;           /* 優先順位 3位 */
 }
 
 p {
-	color: blue;            /* 優先順位 5位 */
+  color: blue;            /* 優先順位 5位 */
 }
 ```
 
@@ -188,24 +188,24 @@ class属性では複数の値を適用することができます。値をスペ
 ```
 ```css
 p {
-	color: blue;
-	background-color: red;
+  color: blue;
+  background-color: red;
 }
 
 .red {
-	color: red;
+  color: red;
 }
 
 .yellow {
-	color: yellow;
+  color: yellow;
 }
 
 .back-yellow {
-	background-color: yellow;
+  background-color: yellow;
 }
 
 .back-green {
-	background-color: green;
+  background-color: green;
 }
 ```
 
@@ -259,19 +259,19 @@ p {
     ```css
     /* 6つのp要素に適用するスタイルを宣言 */
     p {
-        background-color: blue;
+      background-color: blue;
     }
     
     .white {
-        color: white;
+      color: white;
     }
     
     .yellow {
-        color: yellow;
+      color: yellow;
     }
     
     #red {
-        color: red;
+      color: red;
     }
     ```
     </ditails>
@@ -283,46 +283,46 @@ p {
     
     ```html
     <ul>
-        <li class="string-yellow back-gray">文字色は黄色、背景色は灰色、文字サイズは16px</li>
-        <li class="string-blue back-gray">文字色は青色、背景色は灰色、文字サイズは16px</li>
-        <li class="string-red back-green">文字色は赤色、背景色は緑色、文字サイズは16px</li>
-        <li class="string-blue back-green">文字色は青色、背景色は緑色、文字サイズは16px</li>
-        <li class="string-yellow back-brown">文字色は黄色、背景色は茶色、文字サイズは16px</li>
-        <li class="string-red back-brown" id="small">文字色は赤色、背景色は茶色、文字サイズは12px</li>
+      <li class="string-yellow back-gray">文字色は黄色、背景色は灰色、文字サイズは16px</li>
+      <li class="string-blue back-gray">文字色は青色、背景色は灰色、文字サイズは16px</li>
+      <li class="string-red back-green">文字色は赤色、背景色は緑色、文字サイズは16px</li>
+      <li class="string-blue back-green">文字色は青色、背景色は緑色、文字サイズは16px</li>
+      <li class="string-yellow back-brown">文字色は黄色、背景色は茶色、文字サイズは16px</li>
+      <li class="string-red back-brown" id="small">文字色は赤色、背景色は茶色、文字サイズは12px</li>
     </ul>
     ```
     ```css
     /* 6つのli要素に適用するスタイルを宣言 */
     li {
-        font-size: 16px;
+      font-size: 16px;
     }
     
     .string-yellow {
-        color: yellow;
+      color: yellow;
     }
     
     .string-blue {
-        color: blue;
+      color: blue;
     }
     
     .string-red {
-        color: red;
+      color: red;
     }
     
     .back-gray {
-        background-color: gray;
+      background-color: gray;
     }
     
     .back-green {
-        background-color: green;
+      background-color: green;
     }
     
     .back-brown {
-        background-color: brown;
+      background-color: brown;
     }
     
     #small {
-        font-size: 12px;
+      font-size: 12px;
     }
     ```
     </details>
