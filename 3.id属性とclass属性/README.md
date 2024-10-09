@@ -213,6 +213,8 @@ p {
 
 ## CSSを書いてみよう
 インプットした内容を基に、手を動かして試してみましょう。同じディレクトリにあるindex.htmlとstyles.cssに指示に従ってコードを書いてください。わからなければ回答例を見てもOKです。index.htmlをブラウザで表示して、ビフォーアフターも確認してみてください。
+
+index.html
 ```html
 <!DOCTYPE html>
 <html lang="ja">
