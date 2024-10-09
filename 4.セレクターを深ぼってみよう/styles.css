@@ -1,0 +1,19 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+}
+
+.content {
+	padding-right: 50px;
+	margin-right: 20px;
+}
+
+
+/* contentクラスの中にあるh2要素とp要素に適用するスタイル */
+
+/* sideクラスの中にあるh3要素直下の要素に適用するスタイル */
