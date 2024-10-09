@@ -18,21 +18,21 @@ HTMLだけでもWebサイトを作ることはできますが、同じフォン�
 ```css
 /* h1要素の文字色、文字サイズ、背景色をまとめて宣言 */
 h1 {
-	color: black;
-	font-size: 32px;
-	background-color: blue;
+  color: black;
+  font-size: 32px;
+  background-color: blue;
 }
 
 /* p要素とspan要素の文字色と背景色をまとめて宣言 */
 p, span {
-	color: red;
-	background-color: yellow;
+  color: red;
+  background-color: yellow;
 }
 
 /* span要素の文字色と文字サイズをまとめて宣言 */
 span {
-	color: blue;
-	font-size: 24px;
+  color: blue;
+  font-size: 24px;
 }
 ```
 
@@ -63,16 +63,16 @@ CSSファイルでは後で書かれた宣言が優先されます。上記の�
     <!DOCTYPE html>
     <html lang="ja">
     <head>
-        <meta charset="UTF-8">
-        <!-- ここにstyles.cssを適用するコードを書いてください -->
-        <link rel="stylesheet" href="styles.css">
-        
-        <title>Document</title>
+      <meta charset="UTF-8">
+      <!-- ここにstyles.cssを適用するコードを書いてください -->
+      <link rel="stylesheet" href="styles.css">
+    
+      <title>Document</title>
     </head>
     <body>
-        <h1>CSSハンズオン</h1>
-        <h3>Part1</h3>
-        <p>ここの色を緑色にしてください。</p>
+      <h1>CSSハンズオン</h1>
+      <h3>Part1</h3>
+      <p>ここの色を緑色にしてください。</p>
     </body>
     </html>
     ```
@@ -85,7 +85,7 @@ CSSファイルでは後で書かれた宣言が優先されます。上記の�
     ```css
     /* h1要素の文字色を青色で宣言 */
     h1 {
-    	color: blue;
+      color: blue;
     }
     ```
     </details>
@@ -97,7 +97,7 @@ CSSファイルでは後で書かれた宣言が優先されます。上記の�
     ```css
     /* p要素の文字色を緑色で宣言 */
     p {
-        color: green;
+      color: green;
     }
     ```
     </details>
