@@ -47,7 +47,7 @@ CSSファイルでは後で書かれた宣言が優先されます。上記の�
 <html lang="ja">
 <head>
   <!-- styles.cssファイルをこのHTMLファイルに適用 -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
   <title>CSS tutorial</title>
 </head>
 ```
@@ -65,7 +65,7 @@ CSSファイルでは後で書かれた宣言が優先されます。上記の�
     <head>
       <meta charset="UTF-8">
       <!-- ここにstyles.cssを適用するコードを書いてください -->
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="styles.css" />
     
       <title>Document</title>
     </head>
