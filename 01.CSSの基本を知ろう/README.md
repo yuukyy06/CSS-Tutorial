@@ -63,7 +63,7 @@ CSSファイルでは後で書かれた宣言が優先されます。上記の�
     <!DOCTYPE html>
     <html lang="ja">
     <head>
-      <meta charset="UTF-8">
+      <meta charset="UTF-8" />
       <!-- ここにstyles.cssを適用するコードを書いてください -->
       <link rel="stylesheet" href="styles.css" />
     
