@@ -110,6 +110,53 @@ p {
 
 そして、こちらにも各プロパティに`-top`や`-right`を追加したプロパティ（`border-top-color`や`border-right-style`）が存在するため、それぞれを単体で指定することが可能です。
 
+## outline
+`outline`プロパティも`border`プロパティのような「枠線」を追加することができます。値の指定方法は同じですが、`border`プロパティのように上下左右のそれぞれに別のスタイルを適用することはできません。また、`border`プロパティは指定した線の太さに合わせて`border`エリアが広がるため、「要素＋padding＋border＋margin」のサイズが変わりますが、`outline`プロパティは枠線を表示するだけなので、指定した線の太さが変わっても「要素＋padding＋border＋margin」のサイズは変わりません。
+
+```html
+<div class="box">
+  <div class="border"></div>
+  <p>Python</p>
+</div>
+<div class="box">
+  <div class="outline"></div>
+  <p>JavaScript</p>
+</div>
+```
+```css
+p {
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	margin: 20px;
+	background-color: aqua;
+}
+
+.border, .outline {
+	display: inline-block;
+	width: 100px;
+	padding: 20px 0;
+	background-color: #3776AB;
+}
+
+/* borderクラスにborderプロパティで枠線を追加 */
+.border {
+  border: red 5px solid;
+}
+
+/* outlineクラスにoutlineプロパティで枠線を追加 */
+.outline {
+  outline: red 5px solid;
+}
+```
+
+![image](https://github.com/user-attachments/assets/a4575630-f2a0-4848-8fb3-34b626b3cc76)
+
+この例では、枠線のスタイル以外は全く同じですが、`border`プロパティで指定したPython側は水色のエリア内に枠線が入っています。これは`border`クラスのエリアが広がったため`box`クラスのエリアもそれに伴って広がっているためです。しかし、`outline`プロパティで指定したJavaScript側は、枠線が水色のエリアの外に配置されています。`outline`プロパティでは、どのエリアにも影響を及ぼさずに枠線を表示できるため、後に出てくるホバーやフォーカスなどの疑似クラスを使用する時に、スタイルを崩さずに枠線を表示することができます。
+
 ## CSSを書いてみよう
 インプットした内容を基に、早速手を動かして試してみましょう。index.htmlを確認し、指示に従ってCSSを書いてください。まずは自身で書いてみて、わからなければ回答例を見てもOKです。index.htmlをブラウザで表示して、ビフォーアフターも確認してみてください。
 
