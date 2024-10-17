@@ -97,8 +97,8 @@ p {
     <!DOCTYPE html>
     <html lang="ja">
     <head>
-      <meta charset="UTF-8">
-      <link rel="stylesheets" href="styles.css">
+      <meta charset="UTF-8" />
+      <link rel="stylesheets" href="styles.css" />
       <title>Document</title>
     </head>
     <body>
@@ -132,8 +132,8 @@ p {
     <!DOCTYPE html>
     <html lang="ja">
     <head>
-      <meta charset="UTF-8">
-      <link rel="stylesheets" href="styles.css">
+      <meta charset="UTF-8" />
+      <link rel="stylesheets" href="styles.css" />
       <title>Document</title>
     </head>
     <body>
@@ -168,8 +168,8 @@ p {
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheets" href="styles.css">
+  <meta charset="UTF-8" />
+  <link rel="stylesheets" href="styles.css" />
   <title>Document</title>
 </head>
 <body>
@@ -204,9 +204,9 @@ span {
     <!DOCTYPE html>
     <html lang="ja">
     <head>
-      <meta charset="UTF-8">
+      <meta charset="UTF-8" />
       <!-- ここにstyles.cssを適用するコードを記述 -->
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="styles.css" />
     
       <title>Document</title>
     </head>
@@ -280,9 +280,9 @@ span {
     <!DOCTYPE html>
     <html lang="ja">
     <head>
-      <meta charset="UTF-8">
+      <meta charset="UTF-8" />
       <!-- ここにstyles.cssを適用するコードを記述 -->
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="styles.css" />
     
       <title>Document</title>
     </head>
