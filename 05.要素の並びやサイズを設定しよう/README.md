@@ -73,8 +73,8 @@ index.html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="styles.css" />
   <title>Document</title>
 </head>
 <body>
@@ -84,7 +84,7 @@ index.html
   <p class="weather">晴れ</p>
   <p class="temperature">32℃</p>
   <p class="humidity">58%</p>
-  <img src="images/weather.png" alt="sunny">
+  <img src="images/weather.png" alt="sunny" />
 </body>
 </html>
 ```
