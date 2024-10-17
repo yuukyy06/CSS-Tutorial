@@ -106,8 +106,8 @@ index.html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="styles.css" />
   <title>Document</title>
 </head>
 <body>
