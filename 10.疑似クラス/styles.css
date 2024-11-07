@@ -1,0 +1,24 @@
+input, button {
+  display: block;
+  margin: 10px 0;
+}
+
+button {
+  width: 48px;
+  border-radius: 5px;
+  border: black solid 1px;
+  background-color: #FFFFE0
+}
+
+input {
+  height: 24px;
+  outline: gray solid 1px;
+  border-radius: 5px;
+  background-color: #EFFFE0;
+  border: none;
+}
+
+
+/* input要素に疑似クラスfocusのスタイルを適用 */
+
+/* button要素に疑似クラスhoverのスタイルを適用 */
