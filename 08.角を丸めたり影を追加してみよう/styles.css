@@ -1,43 +1,43 @@
 body {
-	max-width: 1000px;
-	display: flex;
-	flex-direction: column;
-	margin: auto;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
 header {
-	background-color: #192F60;
-	color: white;
-	margin-top: 10px;
+  background-color: #192F60;
+  color: white;
+  margin-top: 10px;
 }
 
 h1, h3 {
-	text-align: center;
-	margin: 0;
-	padding: 10px 0;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
 }
 
 div {
-	display: flex;
-	background-color: #FAC559;
-	height: 160px;
+  display: flex;
+  background-color: #FAC559;
+  height: 160px;
 }
 
 ul {
-	padding: 0;
-	margin:12px 0;
+  padding: 0;
+  margin:12px 0;
 }
 
 li {
-	list-style: none;
-	font-size: 12px;
-	width: 244px;
-	padding: 2px 8px 2px 2px;
-	margin: 4px 10px 4px 0;
+  list-style: none;
+  font-size: 12px;
+  width: 244px;
+  padding: 2px 8px 2px 2px;
+  margin: 4px 10px 4px 0;
 }
 
 main {
-	width: auto;
+  width: auto;
 }
 
 
