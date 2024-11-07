@@ -316,27 +316,27 @@ absoluteとは違い、こちらは全く変化がありません。これがabs
 ```
 ```css
 header {
-	text-align: center;
-	background-color: darkblue;
-	color: white;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
 }
 
 main {
-	text-align: center;
+  text-align: center;
 }
 
 div {
-	margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 img {
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 p {
-	margin: 0;
+  margin: 0;
 }
 ```
 
@@ -346,30 +346,30 @@ p {
 
 ```css
 header {
-	text-align: center;
-	background-color: darkblue;
-	color: white;
-	/* positionプロパティでstickyを適用 */
-	position: sticky;
-	top: 12px;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+  /* positionプロパティでstickyを適用 */
+  position: sticky;
+  top: 12px;
 }
 
 main {
-	text-align: center;
+  text-align: center;
 }
 
 div {
-	margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 img {
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 p {
-	margin: 0;
+  margin: 0;
 }
 ```
 
@@ -380,33 +380,33 @@ p {
 
 ```css
 header {
-	text-align: center;
-	background-color: darkblue;
-	color: white;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
 }
 
 /* h1要素にpositionプロパティでstickyを適用 */
 h1 {
-	position: sticky;
-	top: 0;
+  position: sticky;
+  top: 0;
 }
 
 main {
-	text-align: center;
+  text-align: center;
 }
 
 div {
-	margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 img {
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 p {
-	margin: 0;
+  margin: 0;
 }
 ```
 
@@ -431,29 +431,29 @@ p {
 ```
 ```css
 header {
-	text-align: center;
-	background-color: darkblue;
-	color: white;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
 }
 
 main {
-	text-align: center;
-	position: relative;
+  text-align: center;
+  position: relative;
 }
 
 img {
-	margin: 50px;
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 div {
-	width: 100%;
-	height: 300px;
-	background-color: cadetblue;
-	position: absolute;
-	top: 0;
+  width: 100%;
+  height: 300px;
+  background-color: cadetblue;
+  position: absolute;
+  top: 0;
 }
 ```
 
@@ -463,31 +463,31 @@ div {
 
 ```css
 header {
-	text-align: center;
-	background-color: darkblue;
-	color: white;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
 }
 
 main {
-	text-align: center;
-	position: relative;
+  text-align: center;
+  position: relative;
 }
 
 img {
-	margin: 50px;
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 div {
-	width: 100%;
-	height: 300px;
-	background-color: cadetblue;
-	position: absolute;
-	top: 0;
-	/* opacityプロパティを適用 */
-	opacity: 0.5;
+  width: 100%;
+  height: 300px;
+  background-color: cadetblue;
+  position: absolute;
+  top: 0;
+  /* opacityプロパティを適用 */
+  opacity: 0.5;
 }
 ```
 
