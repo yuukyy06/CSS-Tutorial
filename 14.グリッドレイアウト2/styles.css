@@ -1,0 +1,32 @@
+div > div {
+  text-align: center;
+}
+
+.item1 {
+  background-color: darkkhaki;
+}
+
+.item2 {
+  background-color: aqua;
+}
+
+.item3 {
+  background-color: blueviolet;
+}
+
+.item4 {
+  background-color: green;
+}
+
+.item5 {
+  background-color: cadetblue;
+}
+
+.item6 {
+  background-color: crimson;
+}
+
+
+/* containerクラスのdiv要素にスタイルを適用 */
+
+/* item〇クラスにスタイルを適用 */
