@@ -1,16 +1,16 @@
 body {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .content {
-	padding-right: 50px;
-	margin-right: 20px;
+  padding-right: 50px;
+  margin-right: 20px;
 }
 
 
