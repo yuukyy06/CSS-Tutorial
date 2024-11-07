@@ -41,35 +41,35 @@ CSSには様々なプロパティがあります。ここでは、今までに�
 ```
 ```css
 div {
-	margin-bottom: 20px;
-	display: inline-block;
-	width: 250px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 250px;
 }
 
 /* img要素のサイズを200px×200pxで統一 */
 img {
-	width: 200px;
-	height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 .fill {
-	object-fit: fill;
+  object-fit: fill;
 }
 
 .contain {
-	object-fit: contain;
+  object-fit: contain;
 }
 
 .cover {
-	object-fit: cover;
+  object-fit: cover;
 }
 
 .none {
-	object-fit: none;
+  object-fit: none;
 }
 
 .scale-down {
-	object-fit: scale-down;
+  object-fit: scale-down;
 }
 ```
 
@@ -109,14 +109,14 @@ fillでは幅方向に変形、containでは上下に空白が表れ、coverで�
 ```
 ```css
 .container {
-	display: inline-block;
-	margin: 50px
+  display: inline-block;
+  margin: 50px
 }
 
 img {
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 ```
 
@@ -127,21 +127,21 @@ img2クラスの要素に以下のスタイルを適用してみましょう。
 
 ```css
 .container {
-	display: inline-block;
-	margin: 50px
+  display: inline-block;
+  margin: 50px
 }
 
 img {
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 /* img2クラスにpositionプロパティとtop,leftプロパティを指定 */
 .img2 {
-	position: relative;
-	top: 30px;
-	left: 50px;
+  position: relative;
+  top: 30px;
+  left: 50px;
 }
 ```
 
@@ -150,22 +150,22 @@ img {
 元の位置から上側に30px、左側に50pxの隙間ができました。（下に30px、右に50px移動）ここで`z-index`プロパティを指定して、img2クラスの要素を最背面にしてみましょう。
 ```css
 .container {
-	display: inline-block;
-	margin: 50px
+  display: inline-block;
+  margin: 50px
 }
 
 img {
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .img2 {
-	position: relative;
-	top: 30px;
-	left: 50px;
-	/* z-indexプロパティを指定 */
-	z-index: -1;
+  position: relative;
+  top: 30px;
+  left: 50px;
+  /* z-indexプロパティを指定 */
+  z-index: -1;
 }
 ```
 
@@ -178,21 +178,21 @@ img2クラスの要素に以下のスタイルを適用してみましょう。
 
 ```css
 .container {
-	display: inline-block;
-	margin: 50px
+  display: inline-block;
+  margin: 50px
 }
 
 img {
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 /* img2クラスにpositionプロパティとtop,leftプロパティを指定 */
 .img2 {
-	position: absolute;
-	top: 30px;
-	left: 50px;
+  position: absolute;
+  top: 30px;
+  left: 50px;
 }
 ```
 
@@ -203,23 +203,23 @@ img2クラスの要素はデフォルトの位置から除外され、画面の�
 
 ```css
 .container {
-	display: inline-block;
-	/* positionプロパティを指定 */
-	position: relative;
-	margin: 50px
+  display: inline-block;
+  /* positionプロパティを指定 */
+  position: relative;
+  margin: 50px
 }
 
 img {
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 /* img2クラスにpositionプロパティとtop,leftプロパティを指定 */
 .img2 {
-	position: absolute;
-	top: 30px;
-	left: 50px;
+  position: absolute;
+  top: 30px;
+  left: 50px;
 }
 ```
 
@@ -232,21 +232,21 @@ img2クラスの要素に以下のスタイルを適用してみましょう。
 
 ```css
 .container {
-	display: inline-block;
-	margin: 50px
+  display: inline-block;
+  margin: 50px
 }
 
 img {
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 /* img2クラスにpositionプロパティとtop,leftプロパティを指定 */
 .img2 {
-	position: fixed;
-	top: 30px;
-	left: 50px;
+  position: fixed;
+  top: 30px;
+  left: 50px;
 }
 ```
 
@@ -257,23 +257,23 @@ img2クラスの要素はデフォルトの位置から除外され、画面の�
 
 ```css
 .container {
-	display: inline-block;
-	/* positionプロパティを指定 */
-	position: relative;
-	margin: 50px
+  display: inline-block;
+  /* positionプロパティを指定 */
+  position: relative;
+  margin: 50px
 }
 
 img {
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 /* img2クラスにpositionプロパティとtop,leftプロパティを指定 */
 .img2 {
-	position: fixed;
-	top: 30px;
-	left: 50px;
+  position: fixed;
+  top: 30px;
+  left: 50px;
 }
 ```
 
