@@ -11,14 +11,14 @@
 要素セレクター {
   width: 238px; /* 要素の幅 */
   height: 34px; /* 要素の高さ */
-  border-width: 1px
+  border-width: 1px;
 }
 
 /* border-boxの場合 */
 要素セレクター {
   width: 240px; /* ボックスサイズの幅 */
   height: 36px; /* ボックスサイズの高さ */
-  border-width: 1px
+  border-width: 1px;
 }
 ```
 
