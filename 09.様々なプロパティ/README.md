@@ -19,23 +19,23 @@ CSSには様々なプロパティがあります。ここでは、今までに�
 
 ```html
 <div>
-  <img class="fill" src="images/lion-small.JPG" alt="fill">
+  <img class="fill" src="img/lion-small.JPG" alt="fill">
   <p>object-fit: fill;</p>
 </div>
 <div>
-  <img class="contain" src="images/lion-small.JPG" alt="contain">
+  <img class="contain" src="img/lion-small.JPG" alt="contain">
   <p>object-fit: contain;</p>
 </div>
 <div>
-  <img class="cover" src="images/lion-small.JPG" alt="cover">
+  <img class="cover" src="img/lion-small.JPG" alt="cover">
   <p>object-fit: cover;</p>
 </div>
 <div>
-  <img class="none" src="images/lion-small.JPG" alt="none">
+  <img class="none" src="img/lion-small.JPG" alt="none">
   <p>object-fit: none;</p>
 </div>
 <div>
-  <img class="scale-down" src="images/lion-small.JPG" alt="scale-down">
+  <img class="scale-down" src="img/lion-small.JPG" alt="scale-down">
   <p>object-fit: scale-down;</p>
 </div>
 ```
@@ -102,9 +102,9 @@ fillでは幅方向に変形、containでは上下に空白が表れ、coverで�
 
 ```html
 <div class="container">
-  <img class="img1" src="images/lion-small.JPG" alt="lion">
-  <img class="img2" src="images/lion-small.JPG" alt="lion">
-  <img class="img3" src="images/lion-small.JPG" alt="lion">
+  <img class="img1" src="img/lion-small.JPG" alt="lion">
+  <img class="img2" src="img/lion-small.JPG" alt="lion">
+  <img class="img3" src="img/lion-small.JPG" alt="lion">
 </div>
 ```
 ```css
@@ -292,23 +292,23 @@ absoluteとは違い、こちらは全く変化がありません。これがabs
   </header>
   <main>
     <div>
-      <img src="images/lion-small.jpg" alt="lion">
+      <img src="img/lion-small.jpg" alt="lion">
       <p>シンガポールのマーライオン</p>
     </div>
     <div>
-      <img src="images/lion-small.jpg" alt="lion">
+      <img src="img/lion-small.jpg" alt="lion">
       <p>シンガポールのマーライオン</p>
     </div>
     <div>
-      <img src="images/lion-small.jpg" alt="lion">
+      <img src="img/lion-small.jpg" alt="lion">
       <p>シンガポールのマーライオン</p>
     </div>
     <div>
-      <img src="images/lion-small.jpg" alt="lion">
+      <img src="img/lion-small.jpg" alt="lion">
       <p>シンガポールのマーライオン</p>
     </div>
     <div>
-      <img src="images/lion-small.jpg" alt="lion">
+      <img src="img/lion-small.jpg" alt="lion">
       <p>シンガポールのマーライオン</p>
     </div>
   </main>
@@ -424,7 +424,7 @@ p {
     <h3>Part9</h3>
   </header>
   <main>
-    <img src="images/lion-small.jpg" alt="lion">
+    <img src="img/lion-small.jpg" alt="lion">
     <div></div>
   </main>
 </body>
@@ -516,57 +516,57 @@ index.html
   <main>
     <div class="container">
       <div class="inner-container">
-        <img src="images/lion-small.jpg" alt="lion">
+        <img src="img/lion-small.jpg" alt="lion">
         <p>シンガポールのマーライオン</p>
       </div>
       <div class="inner-container">
-        <img src="images/lion-small.jpg" alt="lion">
+        <img src="img/lion-small.jpg" alt="lion">
         <p>シンガポールのマーライオン</p>
       </div>
       <div class="inner-container">
-        <img src="images/lion-small.jpg" alt="lion">
-        <p>シンガポールのマーライオン</p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="inner-container">
-        <img src="images/lion-small.jpg" alt="lion">
-        <p>シンガポールのマーライオン</p>
-      </div>
-      <div class="inner-container">
-        <img src="images/lion-small.jpg" alt="lion">
-        <p>シンガポールのマーライオン</p>
-      </div>
-      <div class="inner-container">
-        <img src="images/lion-small.jpg" alt="lion">
+        <img src="img/lion-small.jpg" alt="lion">
         <p>シンガポールのマーライオン</p>
       </div>
     </div>
     <div class="container">
       <div class="inner-container">
-        <img src="images/lion-small.jpg" alt="lion">
+        <img src="img/lion-small.jpg" alt="lion">
         <p>シンガポールのマーライオン</p>
       </div>
       <div class="inner-container">
-        <img src="images/lion-small.jpg" alt="lion">
+        <img src="img/lion-small.jpg" alt="lion">
         <p>シンガポールのマーライオン</p>
       </div>
       <div class="inner-container">
-        <img src="images/lion-small.jpg" alt="lion">
+        <img src="img/lion-small.jpg" alt="lion">
         <p>シンガポールのマーライオン</p>
       </div>
     </div>
     <div class="container">
       <div class="inner-container">
-        <img src="images/lion-small.jpg" alt="lion">
+        <img src="img/lion-small.jpg" alt="lion">
         <p>シンガポールのマーライオン</p>
       </div>
       <div class="inner-container">
-        <img src="images/lion-small.jpg" alt="lion">
+        <img src="img/lion-small.jpg" alt="lion">
         <p>シンガポールのマーライオン</p>
       </div>
       <div class="inner-container">
-        <img src="images/lion-small.jpg" alt="lion">
+        <img src="img/lion-small.jpg" alt="lion">
+        <p>シンガポールのマーライオン</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="inner-container">
+        <img src="img/lion-small.jpg" alt="lion">
+        <p>シンガポールのマーライオン</p>
+      </div>
+      <div class="inner-container">
+        <img src="img/lion-small.jpg" alt="lion">
+        <p>シンガポールのマーライオン</p>
+      </div>
+      <div class="inner-container">
+        <img src="img/lion-small.jpg" alt="lion">
         <p>シンガポールのマーライオン</p>
       </div>
     </div>
