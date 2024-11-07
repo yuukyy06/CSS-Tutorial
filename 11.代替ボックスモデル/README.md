@@ -77,15 +77,15 @@ index.html
   </header>
   <main>
     <div>
-      <img src="images/eiffel.jpg" alt="エッフェル塔">
+      <img src="img/eiffel.jpg" alt="エッフェル塔">
       <p>エッフェル塔</p>
     </div>
     <div>
-      <img src="images/antelope.jpg" alt="アンテロープキャニオン">
+      <img src="img/antelope.jpg" alt="アンテロープキャニオン">
       <p>アンテロープキャニオン</p>
     </div>
     <div>
-      <img src="images/grand.jpg" alt="グランドキャニオン">
+      <img src="img/grand.jpg" alt="グランドキャニオン">
       <p>グランドキャニオン</p>
     </div>
   </main>
