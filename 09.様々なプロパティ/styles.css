@@ -1,0 +1,42 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	text-align: center;
+	background-color: darkblue;
+	color: white;
+}
+
+main {
+	text-align: center;
+}
+
+.container {
+	margin: 32px 0;
+}
+
+.inner-container {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	outline: 1px darkgray solid;
+	margin: 0 20px;
+	background-color: wheat;
+}
+
+img {
+	margin-top: 24px;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+	margin-top: 32px;
+}
+
+
+/* img要素にスタイルを適用 */
+
+/* header要素にスタイルを適用 */
