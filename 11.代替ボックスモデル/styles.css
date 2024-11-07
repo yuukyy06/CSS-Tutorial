@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #800000;
+}
+
+header {
+  text-align: center;
+  height: 60px;
+  margin-bottom: 40px;
+  background-color: bisque;
+}
+
+h1, ul, li {
+  display: inline-block;
+}
+
+h1 {
+  margin: 12px 500px 0 0;
+}
+
+li {
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #8B4513;
+}
+
+main {
+  text-align: center;
+}
+
+div {
+  margin: 10px;
+  background-color: #EAD7A4;
+  text-align: center;
+}
+
+img {
+  margin: 10px 0;
+}
+
+
+/* img要素にスタイルを適用 */
+
+/* div要素にスタイルを適用 */
