@@ -1,0 +1,20 @@
+.container {
+  width: 1200px;
+  margin: auto;
+  background-color: cadetblue;
+}
+
+div div {
+  outline: 1px black solid;
+  background-color: bisque;
+  text-align: center;
+}
+
+
+/* 1. containerクラスにスタイルを適用 */
+
+/* 2. containerクラスにスタイルを適用 */
+
+/* 3. containerクラスにスタイルを適用 */
+
+/* 4. containerクラスにスタイルを適用 */
