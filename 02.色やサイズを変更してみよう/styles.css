@@ -1,9 +1,24 @@
 /* html要素の文字サイズを宣言 */
-
+html {
+    font-size: 24px;
+}
 /* h1要素の文字色、背景色、文字サイズを宣言 */
-
+h1{
+    color:white;
+    background-color:blue;
+    font-size: 1rem;
+}
 /* h3要素の背景色、文字サイズを宣言 */
-
+h3 {
+    background-color:rgb(0, 100, 0);
+    font-size:0.75rem
+}
 /* p要素の文字色、文字色、文字サイズを宣言 */
-
+p {
+    color:#000080;
+    font-size:0.5rem
+}
 /* 「色」の文字色を宣言 */
+span{
+    color:red;
+}
