@@ -20,5 +20,13 @@ input {
 
 
 /* input要素に疑似クラスfocusのスタイルを適用 */
+input:focus {
+  background-color: #CCFFCC;
+  outline-color: green;
+}
 
 /* button要素に疑似クラスhoverのスタイルを適用 */
+button:hover {
+  background-color: #FFFFA8;
+  width: 52px;
+}
