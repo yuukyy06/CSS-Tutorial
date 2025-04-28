@@ -13,7 +13,17 @@ main {
   margin-right: 20px;
 }
 
-
 /* contentクラスの中にあるh2要素とp要素に適用するスタイル */
+.content h2 {
+  font-size:32px;
+  color:#6B8E23;
+}
+.content p {
+  font-size:20px;
+  color:#20B2AA;
+}
 
 /* sideクラスの中にあるh3要素直下の要素に適用するスタイル */
+.side h3 + p {
+  color:red;
+}
