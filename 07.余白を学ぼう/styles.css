@@ -1,1 +1,14 @@
+/* 余白や境界を設定するプロパティ：margin、border、padding */
 /* p要素に適用するスタイル */
+p {
+    display: inline-block;
+    color: white;
+    background-color: #00008B;
+    width: 160px;
+    text-align: center;
+    padding: 10px 0;
+    margin-right: 20px;
+    border-style: dotted ridge solid;
+    border-color: yellow yellow red;
+    border-width: 5px 10px;
+}
