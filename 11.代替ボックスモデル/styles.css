@@ -48,5 +48,16 @@ img {
 
 
 /* img要素にスタイルを適用 */
+img {
+  width: 300px;
+  height: 300px;
+}
 
 /* div要素にスタイルを適用 */
+div {
+  box-sizing: border-box;
+  width: 320px;
+  height: 360px;
+  border: 1px solid #800000;
+  display: inline-block;
+}
